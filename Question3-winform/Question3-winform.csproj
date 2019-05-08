@@ -52,6 +52,10 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Interface\IGame.cs" />
+    <Compile Include="Interface\IGameExtended.cs" />
+    <Compile Include="Interface\IMessages.cs" />
+    <Compile Include="Interface\IScoring.cs" />
     <Compile Include="MainGame.cs">
       <SubType>Form</SubType>
     </Compile>

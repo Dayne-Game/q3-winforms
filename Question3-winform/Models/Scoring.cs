@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Question3_winform.Interface;
 
 namespace Question3_winform.Models
 {
-    class Scoring
+    class Scoring : IScoring
     {
         public string Five_Character_Name { get; set; }
         public string True_Score_Value { get; set; }

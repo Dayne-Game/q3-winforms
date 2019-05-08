@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Question3_winform.Interface;
 
 namespace Question3_winform.Models
 {
-    class Messages
+    class Messages : IMessages
     {
         public string Welcome { get; set; } = "Welcome to the Number Guessing Game";
         public string Enter_Guess { get; set; } = "Enter a Guess >> ";

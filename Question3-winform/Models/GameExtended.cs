@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Diagnostics;
+using Question3_winform.Interface;
 
 namespace Question3_winform.Models
 {
-    class GameExtended : Game
+    class GameExtended : Game, IGameExtended
     {
         public string difficulty_level { get; set; }
         public string Change_Max_Number_In_Range_Difficulty(string input)
